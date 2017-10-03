@@ -1,6 +1,7 @@
 <?php 
     
     include 'pdo.php';
+    header("Content-type:text/html;charset:utf-8");
 	//获取的id
 	$id = null;
 

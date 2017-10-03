@@ -1,6 +1,7 @@
 <?php 
 	
 	include 'pdo.php';
+	header("Content-type:text/html;charset=utf-8");
 	//获取的id
 	$id = null;
 
@@ -20,7 +21,7 @@
 	}
 
 	if($pdo -> exec($sql)){
-		echo "操作成功!等待3秒返回列表66!";
+		echo "操作成功!等待3秒返回列表!";
 	}else{
 		echo "操作失败!等待3秒返回列表!";
 	}

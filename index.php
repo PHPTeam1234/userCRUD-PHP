@@ -22,6 +22,9 @@
  	<script type="text/javascript" src="BootStrap/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+echo "helloworld";
+
 	<div class="container">
 		<div class="page-header">
 			<h3>用户列表</h3>
